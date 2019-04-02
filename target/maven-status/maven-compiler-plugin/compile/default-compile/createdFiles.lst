@@ -1,0 +1,10 @@
+pages\PaymentsPage.class
+libs\ConfigData.class
+pages\LoginPage.class
+corpLightNew\App.class
+pages\MainPage.class
+pages\AccPage.class
+pages\CorrespondentsPage.class
+pages\ParentPage.class
+libs\ActionsWithOurElements.class
+libs\ConfigProperties.class

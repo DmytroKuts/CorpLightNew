@@ -1,0 +1,7 @@
+accTests\ViewMainAcc.class
+corpLightNew\AppTest.class
+loginTests\LoginTest.class
+correspondentsTests\OpenCorrMenuAndShowInfo.class
+parrentTest\ParentTest.class
+loginTests\InValidLogin.class
+paymentsTests\NewPaymentInCountry.class

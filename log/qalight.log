@@ -2626,3 +2626,7 @@ Session ID: 61f79c421386f02f070cc2175c248d32
 2019-02-04 12:44:41   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (d892d59d915218093fc8fa3102319ee5)] -> name: login]
 2019-02-04 12:44:41   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (d892d59d915218093fc8fa3102319ee5)] -> name: loginpass]
 2019-02-04 12:44:42   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d892d59d915218093fc8fa3102319ee5)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-02-04 13:11:03   INFO [pages.LoginPage] : Login page was open
+2019-02-04 13:11:03   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (7e2274bf9967dc847fdf58ba8a19d474)] -> name: login]
+2019-02-04 13:11:03   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (7e2274bf9967dc847fdf58ba8a19d474)] -> name: loginpass]
+2019-02-04 13:11:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7e2274bf9967dc847fdf58ba8a19d474)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]

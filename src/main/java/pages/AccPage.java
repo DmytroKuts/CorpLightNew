@@ -13,8 +13,7 @@ public class AccPage extends ParentPage {
 
     @FindBy (xpath = ".//span[@class=\"font-bold ng-binding\" and  contains(text(),'265013011662')]")
     private WebElement accUAH;
-    @FindBy (xpath = ".//span[@class=\"font-bold ng-binding\" and  contains(text(),'265013011662')]")
-    private WebElement accUAH2;
+
 
     @FindBy (xpath = ".//span[@class=\"font-bold ng-binding\" and  contains(text(),'260063011390')]")
     private WebElement accUSDandUAH;

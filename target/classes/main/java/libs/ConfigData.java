@@ -1,7 +1,7 @@
 package libs;
 
 
-
+import org.apache.log4j.Logger;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -10,24 +10,30 @@ import java.util.Properties;
  *  That class provides static methods for getting values from Config and UI mapping files
  */
 public class ConfigData {
-    private static String cfgFile="src/main/java/libs/ConfigProperties.properties";
-    private static String uiMappingFile="src/main/java/UIMapping.properties";
+    private static String cfgFile = "src/main/java/libs/ConfigProperties.properties";
+    private static String uiMappingFile = "src/main/java/UIMapping.properties";
 
+    private static  Logger logger;
 
     /*
      *  Return value from .properties file
      *
      */
-    private static String getValueFromFile(String key, String fileName) throws IOException {
+    private static String getValueFromFile(String key, String fileName) {
         Properties p = new Properties();
-        // Create stream for reading from file
-        FileInputStream cfg = new FileInputStream(fileName);
-        // Load Properties from input stream
-        p.load(cfg);
-        cfg.close();
+        try {
+            // Create stream for reading from file
+            FileInputStream cfg = new FileInputStream(fileName);
 
-        // Return value for the property
-        return(p.getProperty(key));
+            // Load Properties from input stream
+            p.load(cfg);
+            cfg.close();
+
+            // Return value for the property
+            return  (p.getProperty(key));
+        } catch (IOException e) {
+            return  null ;
+        }
     }
 
 
@@ -36,7 +42,7 @@ public class ConfigData {
      *  Note, please, that returned value is String.
      *  We should take care of value's type by himself when will use config data value in the test.
      */
-    public static String getUiMappingValue(String key) throws IOException {
+    public static String getUiMappingValue(String key)  {
     	
         return(getValueFromFile(key, uiMappingFile));
     }
@@ -47,13 +53,10 @@ public class ConfigData {
     *  Note, please, that returned value is String.
     *  We should take care of value's type by himself when will use config data value in the test.
     */
-    public static String getCfgValue(String key) throws IOException {
+    public static String getCfgValue(String key)  {
 
         return(getValueFromFile(key, cfgFile));
     }
-
-
-
 
 
 }

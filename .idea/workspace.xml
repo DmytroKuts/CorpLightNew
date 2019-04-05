@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5a2c7f1-bdbd-47d3-89f4-87c318bb6fed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UIMapping.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UIMapping.properties" afterDir="false" />
-    </list>
+    <list default="true" id="b5a2c7f1-bdbd-47d3-89f4-87c318bb6fed" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,40 +39,35 @@
     <session id="-945794832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="254" />
           <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="11" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/AccPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1827#1828#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,66 +85,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/libs/ConfigProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/libs/ConfigProperties.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/libs/ConfigData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getValueFromFile#0;class#ConfigData#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UIMapping.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -160,10 +100,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="680">
+              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5848">
+              <caret line="476" selection-start-line="476" selection-end-line="476" />
+              <folding>
+                <element signature="e#18144#18145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,10 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" />
         <option value="$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/UIMapping.properties" />
         <option value="$PROJECT_DIR$/src/main/java/libs/ConfigData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/AccPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" />
       </list>
     </option>
   </component>
@@ -239,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,31 +217,48 @@
               <item name="CorpLightNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CorpLightNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CorpLightNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CorpLightNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CorpLightNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="CorpLightNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="accTests" type="462c0819:PsiDirectoryNode" />
+              <item name="corpLightNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorpLightNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CorpLightNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CorpLightNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CorpLightNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554199882421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554381295947" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -368,38 +345,59 @@
       <option name="project" value="LOCAL" />
       <updated>1554199909146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1554455706953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554455706953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <created>1554455759672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554455759672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1554455935377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554455935377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewMainAcc - 2019.03.26 at 13h 59m 24s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.02 at 13h 09m 18s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.26 at 14h 00m 45s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.02 at 13h 11m 07s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.26 at 14h 27m 40s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.03 at 18h 49m 14s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.26 at 14h 31m 33s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.03 at 18h 50m 05s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.26 at 14h 32m 15s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.03 at 18h 57m 42s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.26 at 14h 33m 16s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.04 at 13h 06m 39s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.03.29 at 08h 23m 05s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.04 at 13h 08m 37s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.04.01 at 14h 06m 11s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.04 at 13h 16m 53s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.04.01 at 14h 14m 02s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.04 at 13h 18m 55s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ViewMainAcc - 2019.04.02 at 12h 44m 48s.xml">
+    <history-entry file="ViewMainAcc - 2019.04.04 at 15h 26m 49s.xml">
       <configuration name="ViewMainAcc" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -407,7 +405,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,6 +440,18 @@
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -451,13 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/corpLightNew/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -472,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1526">
           <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
@@ -517,31 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -613,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIMapping.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corpLightNew/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -658,10 +626,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.4/owner-1.0.4.jar!/org/aeonbits/owner/ConfigFactory.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/corpLightNew/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/PaymentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-908">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/FindBy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CorrespondentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -672,20 +672,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.4/owner-1.0.4.jar!/org/aeonbits/owner/ConfigFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIMapping.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIMapping.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/libs/ConfigProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -698,26 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/libs/ConfigData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getValueFromFile#0;class#ConfigData#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UIMapping.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="213">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -734,20 +727,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="-417">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1827#1828#0" expanded="true" />
@@ -758,8 +762,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/AccPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5848">
+          <caret line="476" selection-start-line="476" selection-end-line="476" />
+          <folding>
+            <element signature="e#18144#18145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ParentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

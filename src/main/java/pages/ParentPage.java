@@ -15,6 +15,7 @@ public class ParentPage {
     ActionsWithOurElements actionsWithOurElements;
     protected Logger logger;
     String expectedURL;
+
     @FindBy(xpath = ".//*[@class='screen-loader-wrapper']")
     private WebElement loader;
 

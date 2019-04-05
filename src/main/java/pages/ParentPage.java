@@ -19,6 +19,8 @@ public class ParentPage {
 
     private WebElement loader;
 
+
+
     @FindBy(xpath = ".//*[contains(@uib-modal-window, 'modal-window']")
     static WebElement modalWindow;
 

@@ -16,10 +16,7 @@ public class ParentPage {
     protected Logger logger;
     String expectedURL;
     @FindBy(xpath = ".//*[@class='screen-loader-wrapper']")
-
     private WebElement loader;
-
-
 
     @FindBy(xpath = ".//*[contains(@uib-modal-window, 'modal-window']")
     static WebElement modalWindow;

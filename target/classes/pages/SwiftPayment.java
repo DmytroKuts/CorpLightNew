@@ -21,8 +21,8 @@ public class SwiftPayment extends PaymentsPage {
     @FindBy (xpath = "(.//*[contains(@class, 'ui-select-toggle')])[1]")
     private WebElement CurrencyDropDown;
 
-    @FindBy (xpath = ".//*[@class= 'ng-binding'and text() = 'USD']")
-    private WebElement ChooseCurUSD;
+    @FindBy (xpath = ".//*[@class= 'ng-binding'and text() = 'EUR']")
+    private WebElement ChooseCurEUR;
 
     @FindBy (name = "Purpose")
     private WebElement Puprose;
@@ -33,7 +33,7 @@ public class SwiftPayment extends PaymentsPage {
     @FindBy (name = "Other")
     private WebElement Other;
 
-    @FindBy (xpath =".//input[@name='IAgreeWith']")
+    @FindBy (xpath =".//input[@name='IAgreeWith']/..")
     private WebElement IAgreeWith;
 
     @FindBy (xpath = "(.//button[@type='submit'])[1]")
@@ -45,11 +45,24 @@ public class SwiftPayment extends PaymentsPage {
     @FindBy (xpath = "(.//*[@aria-label='Select box activate'])[2]")
     private WebElement DropDownWithAccs;
 
-    @FindBy (xpath = ".//b[contains(@class, 'ng-binding') and text() = '260093011661']")
-    private WebElement ChooseAcc260093011661USD;
+    @FindBy (xpath = ".//b[contains(@class, 'ng-binding') and text() = '26006301300598']")
+    private WebElement ChooseAcc26006301300598;
 
-    @FindBy (xpath ="c")
-    private WebElement UAclientName;
+    @FindBy (xpath ="(.//div[contains(@class, 'panel-title ng-binding')])[3]")
+    private WebElement Intermediary;
+
+    @FindBy (xpath ="//span[@data-translate = 'components.pay.swift.intermediaryBankPresent']")
+    private WebElement CheckBoxIntermediary;
+
+    @FindBy (xpath ="//input[@name= 'IntermediaryBankName']")
+    private WebElement IntermediaryBankName;
+
+    @FindBy (xpath ="//input[@name= 'IntermediaryBankSwift']")
+    private WebElement IntermediaryBankSwift;
+
+    @FindBy (xpath ="//input[@name= 'IntermediaryBankLocation']")
+    private WebElement IntermediaryBankLocation;
+
 
     @FindBy (xpath = "(.//*[@class='ui-select-match-text pull-left'])[3]")
     private WebElement DdWithCountry;
@@ -71,7 +84,7 @@ public class SwiftPayment extends PaymentsPage {
 
     public void chooseCurrency () {clickOnElement(CurrencyDropDown);}
 
-    public void chooseUSD() {clickOnElement(ChooseCurUSD);}
+    public void chooseUSD() {clickOnElement(ChooseCurEUR);}
 
     public void enterSwiftPurpose (String purpose) {enterTextInToInput(Puprose,purpose);}
 
@@ -87,9 +100,20 @@ public class SwiftPayment extends PaymentsPage {
 
     public void openSwiftDdWithAccs() {clickOnElement(DropDownWithAccs);}
 
-    public void chooseAcc260093011661USD () {clickOnElement(ChooseAcc260093011661USD);}
+    public void chooseAcc260093011661USD () {clickOnElement(ChooseAcc26006301300598);}
 
-    public void chooseUAclientName () {clickOnElement(UAclientName);}
+    public void clickIntermediary () {clickOnElement(Intermediary);}
+
+    public void clickCheckBoxIntermediary () {clickOnElement(CheckBoxIntermediary);}
+
+    public void enterTextclickIntermediary (String intermediaryBankName) {enterTextInToInput(IntermediaryBankName,intermediaryBankName);}
+
+    public void enterTextintermediaryBankSwift (String intermediaryBankSwift) {enterTextInToInput(IntermediaryBankSwift,intermediaryBankSwift);}
+
+    public void enterTextintermediaryBankLocation (String intermediaryBankLocation) {enterTextInToInput(IntermediaryBankLocation,intermediaryBankLocation);}
+
+
+
 
     public void openDdWithCountry() {clickOnElement(DdWithCountry);}
 

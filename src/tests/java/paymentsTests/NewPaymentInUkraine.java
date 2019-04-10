@@ -1,7 +1,9 @@
 package paymentsTests;
 
 import libs.ConfigData;
-import org.testng.annotations.Test;
+import org.junit.Test;
+import pages.MainPage;
+import pages.PaymentsPage;
 import parrentTest.ParentTest;
 
 public class NewPaymentInUkraine extends ParentTest {
@@ -25,5 +27,6 @@ public class NewPaymentInUkraine extends ParentTest {
         paymentsPage.clickOnButtonConfirm();
         paymentsPage.clickOnButtonSavePayment();
         checkAC("Payment not saved",paymentsPage.isPaymentSavedSuccess(), true);
+
     }
 }

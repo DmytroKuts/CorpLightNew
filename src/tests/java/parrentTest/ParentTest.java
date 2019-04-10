@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeClass;
 import pages.*;
 
 import java.io.File;
@@ -32,7 +33,7 @@ public class ParentTest {
     protected ConfigData configData;
 
 
-    @Before //анотиации junit-a
+    @BeforeClass //анотиации junit-a
     public  void setUp(){
         log = Logger.getLogger(getClass());
         setBrowser();

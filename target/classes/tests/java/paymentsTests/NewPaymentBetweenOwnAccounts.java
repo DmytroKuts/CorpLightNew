@@ -21,5 +21,6 @@ public class NewPaymentBetweenOwnAccounts extends ParentTest{
         paymentsPage.clickOnButtonYes();
         paymentsPage.clickOnButtonSavePayment();
         checkAC("Payment not saved",paymentsPage.isPaymentSavedSuccess(), true);
+
     }
 }

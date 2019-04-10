@@ -1,7 +1,9 @@
 package paymentsTests;
 
 import libs.ConfigData;
-import org.testng.annotations.Test;
+import org.junit.Test;
+import pages.MainPage;
+import pages.PaymentsPage;
 import parrentTest.ParentTest;
 
 /**
@@ -11,7 +13,7 @@ import parrentTest.ParentTest;
 public class NewSwiftPayments extends ParentTest {
 
     @Test
-    public void createNewSwiftPayment() throws InterruptedException {
+    public void createNewSwiftPayment()  {
         super.setUp();
         loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);

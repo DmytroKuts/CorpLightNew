@@ -19,13 +19,13 @@ public class PaymentsPage extends ParentPage{
     @FindBy (xpath = ".//*[@class='ui-select-match-text pull-left']")
     private WebElement DropDownWithAccs;
 
-    @FindBy (xpath = ".//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 260093011661(980) ']")
+    @FindBy (xpath = ".//span[contains(@class, 'ng-binding ng-scope') and text() = 'РАХУНОК 26250500949926 ']")
     private WebElement ChooseAcc260093011661UAH;
 
     @FindBy (xpath = ".//*[@class='btn ng-scope']")
     private WebElement CorrespondentsDictionary;
 
-    @FindBy (xpath = ".//*[@class='ng-binding' and text() = '260083011655']")
+    @FindBy (xpath = ".//*[@class='ng-binding' and text() = '260013011065']")
     private WebElement ChooseCorrWithAcc260083011655;
 
     @FindBy (name = "Amount")

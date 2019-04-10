@@ -10,8 +10,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import static  com.codeborne.selenide.Selenide.*;
+
+import static com.codeborne.selenide.Selenide.*;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.concurrent.TimeUnit;
@@ -32,59 +35,62 @@ public class ActionsWithOurElements {
         this.loader = loader;
         this.modalWindow = modalWindow;
         logger = Logger.getLogger("ActionsWithOurElements");
-        webDriverWait10 = new WebDriverWait(webdriver,20);
+        webDriverWait10 = new WebDriverWait(webdriver, 20);
     }
 
-    public static void WaitLoaderClosed(){
-        WebDriverWait wait = new WebDriverWait(webdriver,10);
+    public static void WaitLoaderClosed() {
+        WebDriverWait wait = new WebDriverWait(webdriver, 10);
         wait.until(ExpectedConditions.invisibilityOf(loader));
     }
 
-    public static void WaitLoad(WebElement load){
-        WebDriverWait wait = new WebDriverWait(webdriver,20);
+    public static void WaitLoad(WebElement load) {
+        WebDriverWait wait = new WebDriverWait(webdriver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(load));
     }
 
-    public static void WaitModalWindowClosed(){
-        WebDriverWait wait = new WebDriverWait(webdriver,10);
+    public static void WaitModalWindowClosed() {
+        WebDriverWait wait = new WebDriverWait(webdriver, 10);
         wait.until(ExpectedConditions.invisibilityOf(modalWindow));
     }
 
     /**
      * Method Enter text in to input and textArea
+     *
      * @param input
      * @param text
      */
-    public static void enterTextInToInput(WebElement input,String text){
+    public static void enterTextInToInput(WebElement input, String text) {
         try {
             //WaitLoad(input);
             //webdriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            if (!input.isDisplayed()) {
+                ((JavascriptExecutor) webdriver).executeScript("arguments[0].scrollIntoView();", input);
+            }
             $(input).shouldBe(Condition.visible).clear();
             $(input).sendKeys(text);
             logger.info(text + " was inputed in to input " + input);
-        }catch (Exception e){
+        } catch (Exception e) {
             logErrorAndStopTest(e);
         }
     }
 
     /**
      * Method Click on elements on page
+     *
      * @param element
      */
 
     public static void clickOnElement(WebElement element) {
         try {
-            webDriverWait10 = new WebDriverWait(webdriver,20);
-            webDriverWait10.until(ExpectedConditions.elementToBeClickable (element));
+            webDriverWait10 = new WebDriverWait(webdriver, 10);
+            webDriverWait10.until(ExpectedConditions.elementToBeClickable(element));
             //element.click();
-            $(element).shouldBe(Condition.enabled).click();
+            $(element).shouldBe(Condition.visible).click();
             logger.info("Elemet was clicked " + element);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             logErrorAndStopTest(e);
         }
     }
-
 
 
     public static void clickOnElementWithModalW(WebElement element) {
@@ -100,16 +106,17 @@ public class ActionsWithOurElements {
 
     /**
      * Method Find elements on page for present them
+     *
      * @param element
      * @return
      */
-    public static boolean isElementPresent(WebElement element){
+    public static boolean isElementPresent(WebElement element) {
         try {
-            boolean tempState = element.isDisplayed()&& element.isEnabled(); //&& - "и" - и отображается и активен (одно & - Если первый фолс,
-                                                                            // то второй не проверяется, а возвращает фолс.
+            boolean tempState = element.isDisplayed() && element.isEnabled(); //&& - "и" - и отображается и активен (одно & - Если первый фолс,
+            // то второй не проверяется, а возвращает фолс.
             logger.info("Is Element Present ? - " + tempState);
             return tempState;
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.info("Is Element Present ? - false");
             return false;
         }
@@ -118,26 +125,27 @@ public class ActionsWithOurElements {
 
     /**
      * Method set needed state in CheckBox
+     *
      * @param element
      * @param neededState (Can be only 'Checked' or 'Unchecked')
      */
-    public static void setStateToCheckBox(WebElement element, String neededState){
+    public static void setStateToCheckBox(WebElement element, String neededState) {
         final String CHECK_STATUS = "Checked";
         final String UNCHECK_STATUS = "Unchecked";
         ((JavascriptExecutor) webdriver).executeScript("arguments[0].scrollIntoView();", element);
-        $(element).waitUntil(Condition.enabled,20);
-        if (!neededState.equals(CHECK_STATUS) && !neededState.equals(UNCHECK_STATUS)){
+        $(element).waitUntil(Condition.enabled, 20);
+        if (!neededState.equals(CHECK_STATUS) && !neededState.equals(UNCHECK_STATUS)) {
             logger.error(neededState + " - Value of neededState is not expected ");
             Assert.fail(neededState + " - Value of neededState is not expected ");
-        }else {
+        } else {
             try {
                 if (neededState.equals(CHECK_STATUS) && !element.isSelected() ||
-                        neededState.equals(UNCHECK_STATUS) && element.isSelected()){
+                        neededState.equals(UNCHECK_STATUS) && element.isSelected()) {
                     element.click();
                 } else {
                     logger.info("CheckBox has " + neededState + " state already ");
                 }
-            }catch (Exception e){
+            } catch (Exception e) {
                 logErrorAndStopTest(e);
             }
         }
@@ -156,9 +164,10 @@ public class ActionsWithOurElements {
 
     /**
      * Method Stop test if some element was not found
+     *
      * @param
      */
-    private static void logErrorAndStopTest(Exception e){
+    private static void logErrorAndStopTest(Exception e) {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         e.printStackTrace(pw);

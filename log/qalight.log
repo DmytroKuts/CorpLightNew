@@ -4954,3 +4954,1132 @@ Session ID: 7dbb4e0ddaa4afa02defaa90bfa00f2d
 	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
 	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 
+2019-10-04 14:18:40   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:18:42   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (cadae7659b98b8951546adf915599670)] -> name: login]
+2019-10-04 14:18:42   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (cadae7659b98b8951546adf915599670)] -> name: loginpass]
+2019-10-04 14:18:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (cadae7659b98b8951546adf915599670)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:18:49   INFO [ActionsWithOurElements] : Is Element Present ? - false
+2019-10-04 14:19:18   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:19:19   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> name: login]
+2019-10-04 14:19:19   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> name: loginpass]
+2019-10-04 14:19:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:19:29   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:19:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:19:33   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:19:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:19:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:19:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:19:42   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:19:42   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> name: Amount]
+2019-10-04 14:19:43   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> name: Purpose]
+2019-10-04 14:19:43   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> name: Other]
+2019-10-04 14:19:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:19:45   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:19:45   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:19:50   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:19:51   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:19:51   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:19:52   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:19:52   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:19:52   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:19:53   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:19:53   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (18332f6a420ff9490f0401b407ada893)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:30:26   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:30:26   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> name: login]
+2019-10-04 14:30:27   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> name: loginpass]
+2019-10-04 14:30:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:30:30   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:30:32   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:30:35   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:30:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:30:38   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:30:38   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:30:39   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//*[@class= 'ng-binding'and text() = 'EUR']]
+2019-10-04 14:30:40   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> name: Amount]
+2019-10-04 14:30:40   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> name: Purpose]
+2019-10-04 14:30:41   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> name: Other]
+2019-10-04 14:30:41   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:30:42   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:30:42   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:30:48   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:30:48   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:30:49   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:30:49   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:30:50   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:30:50   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:30:50   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:30:51   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:30:51   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:30:52   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:30:52   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:30:52   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:30:53   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:30:53   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:30:54   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:31:14  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:31:14  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (8c6794c07272f360bc03bd0a26c7d3d5)] -> xpath: (.//button[@type='submit'])[1]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 8c6794c07272f360bc03bd0a26c7d3d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.buttonNext1(SwiftPayment.java:124)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+
+2019-10-04 14:35:21   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:35:22   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> name: login]
+2019-10-04 14:35:22   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> name: loginpass]
+2019-10-04 14:35:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:35:24   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:35:26   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:35:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:35:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:35:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:35:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:35:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//*[@class= 'ng-binding'and text() = 'EUR']]
+2019-10-04 14:35:31   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> name: Amount]
+2019-10-04 14:35:32   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> name: Purpose]
+2019-10-04 14:35:33   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> name: Other]
+2019-10-04 14:35:33   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:35:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:35:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:35:40   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:35:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:35:41   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:35:41   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:35:42   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:35:42   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:35:42   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:35:43   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:35:43   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:35:43   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:35:44   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:35:44   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:35:45   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:35:45   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:35:46   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:36:06  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:36:06  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (81352ac9615a46966337b3b0cf7eb5f3)] -> xpath: (.//button[@type='submit'])[1]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 81352ac9615a46966337b3b0cf7eb5f3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.buttonNext1(SwiftPayment.java:124)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+
+2019-10-04 14:36:54   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:36:55   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> name: login]
+2019-10-04 14:36:55   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> name: loginpass]
+2019-10-04 14:36:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:36:57   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:36:58   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:37:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:37:01   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:37:02   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:37:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:37:09   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:37:09   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> name: Amount]
+2019-10-04 14:37:09   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> name: Purpose]
+2019-10-04 14:37:10   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> name: Other]
+2019-10-04 14:37:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:37:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:37:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:37:17   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:37:17   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:37:18   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:37:18   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:37:19   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:37:19   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:37:19   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:37:20   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:37:20   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:37:21   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:37:21   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:37:21   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:37:22   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:37:22   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:37:23   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:37:43  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:37:43  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (a678503babd8a60e3c47dfe61c25bae1)] -> xpath: (.//button[@type='submit'])[1]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a678503babd8a60e3c47dfe61c25bae1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.buttonNext1(SwiftPayment.java:124)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+
+2019-10-04 14:42:04   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:42:04   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> name: login]
+2019-10-04 14:42:05   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> name: loginpass]
+2019-10-04 14:42:05   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:42:07   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:42:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:42:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:42:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:42:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:42:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:42:18   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:42:19   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> name: Amount]
+2019-10-04 14:42:19   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> name: Purpose]
+2019-10-04 14:42:20   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> name: Other]
+2019-10-04 14:42:20   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:42:21   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:42:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:42:27   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:42:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:42:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:42:29   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:42:29   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:42:29   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:42:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:42:30   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:42:31   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:42:31   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:42:32   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:42:32   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:42:32   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:42:33   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:42:34   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (bbe598b6ff75e3164edc422ae02961bc)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:43:00  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:43:00  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='ac_item_7023292498803055']' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.chooseBenificiaryBankLocation(SwiftPayment.java:162)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ac_item_7023292498803055']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: bbe598b6ff75e3164edc422ae02961bc
+*** Element info: {Using=xpath, value=.//*[@id='ac_item_7023292498803055']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 14:44:44   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:44:45   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> name: login]
+2019-10-04 14:44:45   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> name: loginpass]
+2019-10-04 14:44:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:44:47   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:44:49   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:44:50   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:44:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:44:53   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:44:54   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:44:59   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:44:59   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> name: Amount]
+2019-10-04 14:45:00   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> name: Purpose]
+2019-10-04 14:45:00   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> name: Other]
+2019-10-04 14:45:01   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:45:02   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:45:02   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:45:08   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:45:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:45:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:45:09   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:45:09   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:45:10   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:45:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:45:11   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:45:11   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:45:12   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:45:12   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:45:12   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:45:13   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:45:13   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:45:14   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (1b6192a8ac57c6b3ee337c6e6109c5c8)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:45:30  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:45:30  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='ac_item_7023292498803055']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.chooseBenificiaryBankLocation(SwiftPayment.java:162)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ac_item_7023292498803055']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 1b6192a8ac57c6b3ee337c6e6109c5c8
+*** Element info: {Using=xpath, value=.//*[@id='ac_item_7023292498803055']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 14:47:23   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:47:23   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> name: login]
+2019-10-04 14:47:24   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> name: loginpass]
+2019-10-04 14:47:24   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:47:25   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:47:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:47:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:47:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:47:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:47:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:47:37   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:47:37   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> name: Amount]
+2019-10-04 14:47:38   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> name: Purpose]
+2019-10-04 14:47:38   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> name: Other]
+2019-10-04 14:47:39   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:47:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:47:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:47:45   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:47:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:47:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:47:47   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:47:47   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:47:48   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:47:48   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:47:48   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:47:49   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:47:49   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:47:50   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:47:50   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:47:51   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:47:51   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:47:52   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:47:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 14:48:03  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:48:03  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (d8dc66db2a1ea0e7880ab34956ff70e2)] -> xpath: (.//button[@type='submit'])[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: d8dc66db2a1ea0e7880ab34956ff70e2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.buttonNext1(SwiftPayment.java:126)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+
+2019-10-04 14:53:43   INFO [pages.LoginPage] : Login page was open
+2019-10-04 14:53:43   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> name: login]
+2019-10-04 14:53:44   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> name: loginpass]
+2019-10-04 14:53:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 14:53:48   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 14:53:50   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 14:53:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 14:53:53   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 14:53:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 14:53:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 14:54:01   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 14:54:01   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> name: Amount]
+2019-10-04 14:54:01   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> name: Purpose]
+2019-10-04 14:54:02   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> name: Other]
+2019-10-04 14:54:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 14:54:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 14:54:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 14:54:09   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 14:54:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 14:54:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 14:54:11   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 14:54:11   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 14:54:12   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 14:54:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 14:54:12   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 14:54:13   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 14:54:13   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 14:54:14   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 14:54:14   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 14:54:15   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 14:54:15   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 14:54:16   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 14:54:16   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 14:54:17   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (05761f37500e7a313f1c0c3d4b5f1bea)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 14:54:32  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 14:54:32  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (.//*[@class='ui-select-match-text pull-left'])[3]' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.openDdWithCountry(SwiftPayment.java:173)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[@class='ui-select-match-text pull-left'])[3]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 05761f37500e7a313f1c0c3d4b5f1bea
+*** Element info: {Using=xpath, value=(.//*[@class='ui-select-match-text pull-left'])[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 15:17:06   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:17:07   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> name: login]
+2019-10-04 15:17:08   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> name: loginpass]
+2019-10-04 15:17:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:17:10   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:17:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:17:14   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:17:16   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 15:17:18   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 15:17:18   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 15:17:24   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 15:17:24   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> name: Amount]
+2019-10-04 15:17:25   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> name: Purpose]
+2019-10-04 15:17:25   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> name: Other]
+2019-10-04 15:17:26   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 15:17:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:17:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 15:17:27   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']]
+2019-10-04 15:17:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 15:17:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 15:17:29   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 15:17:29   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 15:17:30   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 15:17:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 15:17:31   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 15:17:31   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 15:17:31   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 15:17:32   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 15:17:32   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 15:17:33   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 15:17:33   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 15:17:34   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 15:17:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 15:17:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 15:17:35   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (987d16607b96361f0bcdc46036996143)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-10-04 15:17:51  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 15:17:51  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (.//*[@class='ui-select-match-text pull-left'])[3]' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.SwiftPayment.openDdWithCountry(SwiftPayment.java:179)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[@class='ui-select-match-text pull-left'])[3]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 987d16607b96361f0bcdc46036996143
+*** Element info: {Using=xpath, value=(.//*[@class='ui-select-match-text pull-left'])[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 15:25:01   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:25:02   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> name: login]
+2019-10-04 15:25:02   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> name: loginpass]
+2019-10-04 15:25:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:25:05   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:25:07   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:25:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:25:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 15:25:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 15:25:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 15:25:18   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 15:25:18   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> name: Amount]
+2019-10-04 15:25:19   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> name: Purpose]
+2019-10-04 15:25:20   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> name: Other]
+2019-10-04 15:25:20   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 15:25:21   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:25:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 15:25:28   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 15:25:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 15:25:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 15:25:29   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 15:25:29   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 15:25:30   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 15:25:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 15:25:30   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 15:25:31   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 15:25:31   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 15:25:32   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 15:25:32   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 15:25:33   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 15:25:33   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 15:25:34   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 15:25:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 15:25:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 15:25:35   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (85fac390e866f571d7eea9bc51f9fcfc)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-10-04 15:27:39   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:27:40   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> name: login]
+2019-10-04 15:27:40   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> name: loginpass]
+2019-10-04 15:27:41   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:27:42   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:27:43   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:27:45   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:27:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 15:27:47   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 15:27:48   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 15:27:53   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 15:27:53   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> name: Amount]
+2019-10-04 15:27:54   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> name: Purpose]
+2019-10-04 15:27:55   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> name: Other]
+2019-10-04 15:27:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 15:27:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:27:57   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 15:28:02   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 15:28:02   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 15:28:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 15:28:04   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 15:28:04   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 15:28:04   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 15:28:05   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 15:28:05   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 15:28:06   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 15:28:06   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 15:28:07   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 15:28:07   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 15:28:08   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 15:28:08   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 15:28:09   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 15:28:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 15:28:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 15:28:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (9004a058c5444af5a0b4abef1fc49f17)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-10-04 15:29:52   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:29:52   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> name: login]
+2019-10-04 15:29:53   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> name: loginpass]
+2019-10-04 15:29:53   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:29:54   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:29:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:29:58   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:29:59   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 15:30:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 15:30:01   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 15:30:07   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 15:30:07   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> name: Amount]
+2019-10-04 15:30:08   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> name: Purpose]
+2019-10-04 15:30:08   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> name: Other]
+2019-10-04 15:30:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 15:30:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:30:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 15:30:16   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 15:30:16   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 15:30:17   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 15:30:17   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 15:30:18   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 15:30:18   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 15:30:18   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 15:30:19   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 15:30:20   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 15:30:20   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 15:30:20   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 15:30:21   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 15:30:21   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 15:30:22   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 15:30:22   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 15:30:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 15:30:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 15:30:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (55587a5b6e528741013a2ad11d9a1318)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-10-04 15:35:37   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:35:38   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> name: login]
+2019-10-04 15:35:38   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> name: loginpass]
+2019-10-04 15:35:39   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:35:40   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:35:42   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:35:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:35:45   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-10-04 15:35:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (2b3565bc4ccf5a9e3000a834db71bb2a)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-10-04 15:36:02  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 15:36:02  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 260093011661(980) ']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.chooseAccFromDropDown(PaymentsPage.java:61)
+	at paymentsTests.NewPaymentInUkraine.createNewPaymentsInUkraine(NewPaymentInUkraine.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 260093011661(980) ']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2b3565bc4ccf5a9e3000a834db71bb2a
+*** Element info: {Using=xpath, value=.//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 260093011661(980) ']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 15:37:50   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:37:51   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> name: login]
+2019-10-04 15:37:52   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> name: loginpass]
+2019-10-04 15:37:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:37:53   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:37:59   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:38:01   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:38:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-10-04 15:38:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7202a0d1c755099f73e5fd3fef62c8ff)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-10-04 15:38:20  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 15:38:20  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 26250500949926(980) ']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.chooseAccFromDropDown(PaymentsPage.java:61)
+	at paymentsTests.NewPaymentInUkraine.createNewPaymentsInUkraine(NewPaymentInUkraine.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 26250500949926(980) ']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 7202a0d1c755099f73e5fd3fef62c8ff
+*** Element info: {Using=xpath, value=.//span[contains(@class, 'ng-binding ng-scope') and text() = 'Рахунок 26250500949926(980) ']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 15:40:56   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:40:57   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> name: login]
+2019-10-04 15:40:57   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> name: loginpass]
+2019-10-04 15:40:57   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:40:58   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:41:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:41:01   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:41:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-10-04 15:41:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-10-04 15:41:09   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'РАХУНОК 26250500949926 ']'
+2019-10-04 15:41:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4fa6ba66d776d697877a50f91ca7b6d9)] -> xpath: .//*[@class='btn ng-scope']]
+2019-10-04 15:41:25  ERROR [ActionsWithOurElements] : Can not work with element
+2019-10-04 15:41:25  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class='ng-binding' and text() = '260083011655']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.choseCorr(PaymentsPage.java:65)
+	at paymentsTests.NewPaymentInUkraine.createNewPaymentsInUkraine(NewPaymentInUkraine.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='ng-binding' and text() = '260083011655']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4fa6ba66d776d697877a50f91ca7b6d9
+*** Element info: {Using=xpath, value=.//*[@class='ng-binding' and text() = '260083011655']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+
+2019-10-04 15:42:39   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:42:40   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> name: login]
+2019-10-04 15:42:40   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> name: loginpass]
+2019-10-04 15:42:41   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:42:42   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:42:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:42:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:42:47   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-10-04 15:42:49   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-10-04 15:42:54   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'РАХУНОК 26250500949926 ']'
+2019-10-04 15:42:54   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//*[@class='btn ng-scope']]
+2019-10-04 15:42:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//*[@class='ng-binding' and text() = '260013011065']]
+2019-10-04 15:42:55   INFO [ActionsWithOurElements] : 48.84 was inputed in to input [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> name: Amount]
+2019-10-04 15:42:56   INFO [ActionsWithOurElements] : New payment in Ukraine by selenium was inputed in to input [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> name: purpose]
+2019-10-04 15:42:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-10-04 15:42:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0a36b209dc7700685323047f8b396822)] -> xpath: .//button[@data-translate='components.pay.save']]
+2019-10-04 15:42:58   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:53:58   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:53:59   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> name: login]
+2019-10-04 15:54:00   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> name: loginpass]
+2019-10-04 15:54:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:54:01   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:54:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:54:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:54:07   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-10-04 15:54:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-10-04 15:54:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-10-04 15:54:15   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-10-04 15:54:15   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> name: Amount]
+2019-10-04 15:54:15   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> name: Purpose]
+2019-10-04 15:54:16   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> name: Other]
+2019-10-04 15:54:16   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//button[@type='submit'])[1]]
+2019-10-04 15:54:17   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:54:18   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-10-04 15:54:23   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-10-04 15:54:24   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-10-04 15:54:24   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-10-04 15:54:24   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-10-04 15:54:25   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-10-04 15:54:25   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-10-04 15:54:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-10-04 15:54:26   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-10-04 15:54:26   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-10-04 15:54:27   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-10-04 15:54:27   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-10-04 15:54:28   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-10-04 15:54:28   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-10-04 15:54:28   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-10-04 15:54:29   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-10-04 15:54:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-10-04 15:54:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: (.//button[@type='submit'])[4]]
+2019-10-04 15:54:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (8f901b49266ae582419b86ce01eac71d)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-10-04 15:55:05   INFO [pages.LoginPage] : Login page was open
+2019-10-04 15:55:05   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> name: login]
+2019-10-04 15:55:06   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> name: loginpass]
+2019-10-04 15:55:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-10-04 15:55:07   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-10-04 15:55:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-10-04 15:55:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-10-04 15:55:11   INFO [ActionsWithOurElements] : 20 was inputed in to input [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> name: Amount]
+2019-10-04 15:55:12   INFO [ActionsWithOurElements] : New payment between accs by selenium was inputed in to input [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> name: purpose]
+2019-10-04 15:55:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-10-04 15:55:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-10-04 15:55:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (321782efb409f5110bf4431c5b200e8e)] -> xpath: .//button[@data-translate='components.pay.save']]
+2019-10-04 15:55:14   INFO [ActionsWithOurElements] : Is Element Present ? - true

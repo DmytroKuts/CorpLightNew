@@ -11,7 +11,7 @@ import parrentTest.ParentTest;
 public class NewSwiftPayments extends ParentTest {
 
     @Test
-    public void createNewSwiftPayment() throws InterruptedException {
+    public void createNewSwiftPayment()  {
         super.setUp();
         loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);
@@ -36,10 +36,20 @@ public class NewSwiftPayments extends ParentTest {
         swiftPayment.clickCheckBoxIntermediary();
         swiftPayment.enterTextclickIntermediary("Selenuum Bank Swift");
         swiftPayment.enterTextintermediaryBankSwift("Selenium #SWIFT");
-        swiftPayment.enterTextintermediaryBankLocation("Selenium Location Swift");
-        swiftPayment.openDdWithCountry();
-        swiftPayment.chooseIreland();
-        swiftPayment.testLoc();
-        Thread.sleep(10000);
+        swiftPayment.enterTextIntermediaryBankLocation("Selenium Location Swift");
+        swiftPayment.clickBeneficiary();
+        swiftPayment.enterTextBeneficiaryAccountNumber("260454545454545454");
+        swiftPayment.enterTextBenificiaryIBANNumber("UA8855300465260056565656");
+        swiftPayment.enterTextBeneficiaryName("Benef Name Selenium ");
+        swiftPayment.enterTextBeneficiaryLocation("Location Selenium");
+        swiftPayment.enterTextBeneficiaryBankCorrAccount("SeleniumCorBank");
+        swiftPayment.enterTextBeneficiaryBankName("ASSET ALLOCATION ADVISORS SA");
+        swiftPayment.enterTextBeneficiaryBankSWIFT("AAADFRP1XXX");
+        swiftPayment.enterTextBenificiaryBankLocation("FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS");
+        swiftPayment.clickBenificiaryBankLocation();
+        swiftPayment.clickButtonNext4();
+        swiftPayment.clickOnsign();
+        swiftPayment.textSuccess();
+
     }
 }

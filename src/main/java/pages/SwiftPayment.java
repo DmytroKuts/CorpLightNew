@@ -63,19 +63,44 @@ public class SwiftPayment extends PaymentsPage {
     @FindBy (xpath ="//input[@name= 'IntermediaryBankLocation']")
     private WebElement IntermediaryBankLocation;
 
+    @FindBy (xpath ="(.//div[contains(@class, 'panel-title ng-binding')])[4]")
+    private WebElement Beneficiary;
 
-    @FindBy (xpath = "(.//*[@class='ui-select-match-text pull-left'])[3]")
-    private WebElement DdWithCountry;
+    @FindBy (xpath ="//input[@name= 'BeneficiaryAccountNumber']")
+    private WebElement BeneficiaryAccountNumber;
 
-    @FindBy (xpath = ".//div[text()[contains(.,'Ірландія')]]")
-    private WebElement ChoseIrelandCountry;
+    @FindBy (xpath ="//input[@name= 'BenificiaryIBANNumber']")
+    private WebElement BenificiaryIBANNumber;
 
-    @FindBy (xpath = ".//input[@name= 'SenderLocation'and value='Адреса клієнта RNK=98509901']")
-    private WebElement TestLoc;
+    @FindBy (xpath ="//input[@name= 'BeneficiaryName']")
+    private WebElement BeneficiaryName;
 
+    @FindBy (xpath ="//input[@name= 'BeneficiaryLocation']")
+    private WebElement BeneficiaryLocation;
 
+    @FindBy (xpath ="//input[@name= 'BeneficiaryBankCorrAccount']")
+    private WebElement BeneficiaryBankCorrAccount;
 
+    @FindBy (xpath ="//input[@name= 'BeneficiaryBankName']")
+    private WebElement BeneficiaryBankName;
 
+    @FindBy (xpath ="//input[@name= 'BeneficiaryBankSWIFT']")
+    private WebElement BeneficiaryBankSWIFT;
+
+    @FindBy (xpath ="//input[@name= 'BenificiaryBankLocation']")
+    private WebElement BenificiaryBankLocation;
+
+    @FindBy (xpath = "(.//button[@type='submit'])[4]")
+    private WebElement ButtonNext4;
+
+    @FindBy (xpath = ".//*[@class='ac-menu-item ng-scope']")
+    private WebElement ChooseBenificiaryBankLocation;
+
+    @FindBy (xpath = ".//*[contains(@ng-click, 'ONSIGN')]")
+    private WebElement ClickOnsign;
+
+    @FindBy (xpath = ".//span[text()[contains(.,'платіж успішно збережено')]]")
+    private WebElement TextSuccess;
 
 
     public void openComDocReqMenu () {clickOnElement(CommonDocumentRequisites);}
@@ -110,16 +135,35 @@ public class SwiftPayment extends PaymentsPage {
 
     public void enterTextintermediaryBankSwift (String intermediaryBankSwift) {enterTextInToInput(IntermediaryBankSwift,intermediaryBankSwift);}
 
-    public void enterTextintermediaryBankLocation (String intermediaryBankLocation) {enterTextInToInput(IntermediaryBankLocation,intermediaryBankLocation);}
+    public void enterTextIntermediaryBankLocation (String intermediaryBankLocation) {enterTextInToInput(IntermediaryBankLocation,intermediaryBankLocation);}
+
+    public void clickBeneficiary () {clickOnElement(Beneficiary);}
+
+    public void enterTextBeneficiaryAccountNumber(String beneficiaryAccountNumber) {enterTextInToInput(BeneficiaryAccountNumber,beneficiaryAccountNumber);}
+
+    public void enterTextBenificiaryIBANNumber (String benificiaryIBANNumber) {enterTextInToInput(BenificiaryIBANNumber,benificiaryIBANNumber);}
+
+    public void enterTextBeneficiaryName (String beneficiaryName) {enterTextInToInput(BeneficiaryName,beneficiaryName);}
+
+    public void enterTextBeneficiaryLocation (String beneficiaryLocation) {enterTextInToInput(BeneficiaryLocation,beneficiaryLocation);}
+
+    public void enterTextBeneficiaryBankCorrAccount (String beneficiaryBankCorrAccount) {enterTextInToInput(BeneficiaryBankCorrAccount,beneficiaryBankCorrAccount);}
+
+    public void enterTextBeneficiaryBankName(String beneficiaryBankName) {enterTextInToInput(BeneficiaryBankName,beneficiaryBankName);}
+
+    public void enterTextBeneficiaryBankSWIFT (String beneficiaryBankSWIFT) {enterTextInToInput(BeneficiaryBankSWIFT,beneficiaryBankSWIFT);}
+
+    public void enterTextBenificiaryBankLocation (String benificiaryBankLocation) {enterTextInToInput(BenificiaryBankLocation,benificiaryBankLocation);}
+
+    public void clickBenificiaryBankLocation () {clickOnElement(ChooseBenificiaryBankLocation);}
+
+    public void clickButtonNext4 () {clickOnElement(ButtonNext4);}
+
+    public void clickOnsign () {clickOnElement(ClickOnsign);}
+
+    public void textSuccess () {TextSuccess.isDisplayed();}
 
 
-
-
-    public void openDdWithCountry() {clickOnElement(DdWithCountry);}
-
-    public void chooseIreland() {clickOnElement(ChoseIrelandCountry);}
-
-    public void testLoc() {isElementPresent(TestLoc);}
 
     public SwiftPayment(WebDriver webDriver) {
         super(webDriver);

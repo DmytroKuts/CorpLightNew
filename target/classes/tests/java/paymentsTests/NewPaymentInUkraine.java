@@ -1,16 +1,18 @@
 package paymentsTests;
 
-import org.junit.Test;
+import libs.ConfigData;
+import org.testng.annotations.Test;
 import parrentTest.ParentTest;
 
 public class NewPaymentInUkraine extends ParentTest {
 
     @Test
-    public void createNewPaymentsInUkraine() throws InterruptedException {
-        loginPage.loginUser("brusov@ub.com", "qwerty");
+    public void createNewPaymentsInUkraine()  {
+        super.setUp();
+        loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);
-        mainPage.changeClient();
-        mainPage.RNK98509901();
+        //mainPage.changeClient();
+        //mainPage.RNK98509901();
         mainPage.openPaymentsMenu();
         paymentsPage.newPayment();
         paymentsPage.newPaymentInUkraine();

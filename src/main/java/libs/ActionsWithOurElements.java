@@ -1,12 +1,16 @@
 package libs;
 
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import static  com.codeborne.selenide.Selenide.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -54,9 +58,9 @@ public class ActionsWithOurElements {
     public static void enterTextInToInput(WebElement input,String text){
         try {
             //WaitLoad(input);
-            webdriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            input.clear();
-            input.sendKeys(text);
+            //webdriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            $(input).shouldBe(Condition.visible).clear();
+            $(input).sendKeys(text);
             logger.info(text + " was inputed in to input " + input);
         }catch (Exception e){
             logErrorAndStopTest(e);
@@ -67,26 +71,27 @@ public class ActionsWithOurElements {
      * Method Click on elements on page
      * @param element
      */
+
     public static void clickOnElement(WebElement element) {
         try {
             webDriverWait10 = new WebDriverWait(webdriver,20);
             webDriverWait10.until(ExpectedConditions.elementToBeClickable (element));
-            element.click();
+            //element.click();
+            $(element).shouldBe(Condition.enabled).click();
             logger.info("Elemet was clicked " + element);
         }
         catch (Exception e) {
             logErrorAndStopTest(e);
         }
-        }
+    }
 
 
 
     public static void clickOnElementWithModalW(WebElement element) {
         try {
             WaitModalWindowClosed();
-            //WaitLoaderClosed();
             webDriverWait10.until(ExpectedConditions.elementToBeClickable(element));
-            element.click();
+            $(element).shouldBe(Condition.enabled).click();
             logger.info("Elemet was clicked " + element);
         } catch (Exception e) {
             logErrorAndStopTest(e);
@@ -119,6 +124,8 @@ public class ActionsWithOurElements {
     public static void setStateToCheckBox(WebElement element, String neededState){
         final String CHECK_STATUS = "Checked";
         final String UNCHECK_STATUS = "Unchecked";
+        ((JavascriptExecutor) webdriver).executeScript("arguments[0].scrollIntoView();", element);
+        $(element).waitUntil(Condition.enabled,20);
         if (!neededState.equals(CHECK_STATUS) && !neededState.equals(UNCHECK_STATUS)){
             logger.error(neededState + " - Value of neededState is not expected ");
             Assert.fail(neededState + " - Value of neededState is not expected ");

@@ -3,6 +3,7 @@ package parrentTest;
 
 
 import io.qameta.allure.Step;
+import libs.ConfigData;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
@@ -28,6 +29,7 @@ public class ParentTest {
     protected CorrespondentsPage correspondentsPage;
     protected PaymentsPage paymentsPage;
     protected SwiftPayment swiftPayment;
+    protected ConfigData configData;
 
 
     @Before //анотиации junit-a
@@ -35,7 +37,7 @@ public class ParentTest {
         log = Logger.getLogger(getClass());
         setBrowser();
         webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         mainPage = new MainPage(webDriver);
         loginPage = new LoginPage(webDriver);
@@ -43,6 +45,7 @@ public class ParentTest {
         correspondentsPage = new CorrespondentsPage(webDriver);
         paymentsPage = new PaymentsPage(webDriver);
         swiftPayment = new SwiftPayment(webDriver);
+        configData = new ConfigData();
 
     }
 
@@ -51,8 +54,6 @@ public class ParentTest {
             browser = "chrome";
         }
         if ("chrome".equals(browser)) {
-           // File fileFF = new File("D:\\AutoTests\\drivers\\chromedriver.exe");
-           //  System.setProperty("webdriver.chrome.driver", fileFF.getAbsolutePath());
             System.setProperty("webdriver.chrome.driver", "D:\\AutoTests\\drivers\\chromedriver.exe");
             webDriver = new ChromeDriver();
         } else if ("ie".equals(browser)) {
@@ -60,9 +61,6 @@ public class ParentTest {
             File file1 = new File(".././drivers/IEDriverServer.exe");
             System.setProperty("webdriver.ie.driver", file1.getAbsolutePath());
             DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-            //capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-           // capabilities.setCapability("ignoreZoomSetting", true);
-            //capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
             webDriver = new InternetExplorerDriver();
             log.info(" IE is started");
 

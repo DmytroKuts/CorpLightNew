@@ -1,6 +1,7 @@
 package paymentsTests;
 
-import org.junit.Test;
+import libs.ConfigData;
+import org.testng.annotations.Test;
 import parrentTest.ParentTest;
 
 /**
@@ -11,10 +12,11 @@ public class NewSwiftPayments extends ParentTest {
 
     @Test
     public void createNewSwiftPayment() throws InterruptedException {
-        loginPage.loginUser("brusov@ub.com", "qwerty");
+        super.setUp();
+        loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);
-        mainPage.changeClient();
-        mainPage.RNK98509901();
+        //mainPage.changeClient();
+        //mainPage.RNK98509901();
         mainPage.openPaymentsMenu();
         paymentsPage.newPayment();
         paymentsPage.newSwiftPayment();
@@ -30,7 +32,11 @@ public class NewSwiftPayments extends ParentTest {
         paymentsPage.clickOnButtonYes();
         swiftPayment.openSwiftDdWithAccs();
         swiftPayment.chooseAcc260093011661USD();
-        swiftPayment.chooseUAclientName();
+        swiftPayment.clickIntermediary();
+        swiftPayment.clickCheckBoxIntermediary();
+        swiftPayment.enterTextclickIntermediary("Selenuum Bank Swift");
+        swiftPayment.enterTextintermediaryBankSwift("Selenium #SWIFT");
+        swiftPayment.enterTextintermediaryBankLocation("Selenium Location Swift");
         swiftPayment.openDdWithCountry();
         swiftPayment.chooseIreland();
         swiftPayment.testLoc();

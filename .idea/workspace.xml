@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/java/correspondentsTests/OpenCorrMenuAndShowInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/correspondentsTests/OpenCorrMenuAndShowInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/java/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/loginTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/accTests/ViewMainAcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accTests/ViewMainAcc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/correspondentsTests/OpenCorrMenuAndShowInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/correspondentsTests/OpenCorrMenuAndShowInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/loginTests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/loginTests/LoginTest.class" afterDir="false" />
@@ -59,8 +60,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1326" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="JAVA" value="1327" />
+          <entry key="PLAIN_TEXT" value="78" />
           <entry key="Properties" value="41" />
           <entry key="XML" value="4" />
         </counts>
@@ -130,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-425">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="307">
+              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,8 +224,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/tests/java/loginTests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/tests/java/correspondentsTests/OpenCorrMenuAndShowInfo.java" />
-        <option value="$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java" />
         <option value="$PROJECT_DIR$/src/tests/java/accTests/ViewMainAcc.java" />
+        <option value="$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java" />
       </list>
     </option>
   </component>
@@ -502,9 +503,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="paymentsTests_in_CorpLightNew - 2019.04.10 at 17h 11m 10s.xml">
-      <configuration name="paymentsTests in CorpLightNew" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Unnamed - 2019.04.10 at 17h 18m 18s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -532,11 +530,15 @@
     <history-entry file="Unnamed - 2019.04.15 at 09h 46m 48s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2019.04.15 at 15h 31m 24s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,7 +547,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45717463" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45717463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35261402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,7 +602,8 @@
     <MESSAGE value="Update ViewMainAcc" />
     <MESSAGE value="Created Swift Payment" />
     <MESSAGE value="Done Payments Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Payments Tests" />
+    <MESSAGE value="Update path chromedriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update path chromedriver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -964,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/java/parrentTest/ParentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="307">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

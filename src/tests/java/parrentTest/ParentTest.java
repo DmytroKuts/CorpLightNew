@@ -55,7 +55,7 @@ public class ParentTest {
             browser = "chrome";
         }
         if ("chrome".equals(browser)) {
-            System.setProperty("webdriver.chrome.driver", "D:\\AutoTests\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
             webDriver = new ChromeDriver();
         } else if ("ie".equals(browser)) {
             log.info("IE will be started");

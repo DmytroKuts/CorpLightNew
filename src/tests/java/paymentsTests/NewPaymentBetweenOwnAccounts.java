@@ -1,16 +1,18 @@
 package paymentsTests;
 
+import libs.ConfigData;
 import org.junit.Test;
 import parrentTest.ParentTest;
 
 public class NewPaymentBetweenOwnAccounts extends ParentTest{
 
     @Test
-    public void createNewPaymentsBetweenOwnAccounts() throws InterruptedException {
-        loginPage.loginUser("brusov@ub.com", "qwerty");;
+    public void createNewPaymentsBetweenOwnAccounts() {
+        super.setUp();
+        loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);
-        mainPage.changeClient();
-        mainPage.RNK98509901();
+       // mainPage.changeClient();
+       // mainPage.RNK98509901();
         mainPage.openPaymentsMenu();
         paymentsPage.newPayment();
         paymentsPage.enterTextIntoInputAmount("20");
@@ -19,5 +21,6 @@ public class NewPaymentBetweenOwnAccounts extends ParentTest{
         paymentsPage.clickOnButtonYes();
         paymentsPage.clickOnButtonSavePayment();
         checkAC("Payment not saved",paymentsPage.isPaymentSavedSuccess(), true);
+
     }
 }

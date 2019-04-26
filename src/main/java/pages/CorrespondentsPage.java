@@ -25,7 +25,7 @@ public class CorrespondentsPage extends ParentPage {
      */
     public void clickOnRecipientChevron(){
         clickOnElement(infoAboutCorr);
-        ;
+
     }
 
     public boolean ElementPresent(){

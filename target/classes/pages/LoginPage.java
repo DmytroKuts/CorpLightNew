@@ -16,6 +16,7 @@ public class LoginPage extends ParentPage {
 //  @FindBy(xpath = ".//div[contains(@class,'app-auth-tabs')]/ul/li[1]")
 //  private WebElement linkByLogin;
 
+
     @FindBy(name = "login")
     private WebElement inputLogin;
 
@@ -35,8 +36,9 @@ public class LoginPage extends ParentPage {
     private WebElement loader;
 
     public LoginPage(WebDriver webDriver) {
-        super(webDriver, "/auth/logon");
+      super(webDriver, "/auth/logon");
     }
+
 
     /**
      * Method open logon page of CL

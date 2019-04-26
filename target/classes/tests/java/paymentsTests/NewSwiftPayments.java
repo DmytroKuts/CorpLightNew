@@ -1,6 +1,9 @@
 package paymentsTests;
 
+import libs.ConfigData;
 import org.junit.Test;
+import pages.MainPage;
+import pages.PaymentsPage;
 import parrentTest.ParentTest;
 
 /**
@@ -10,11 +13,12 @@ import parrentTest.ParentTest;
 public class NewSwiftPayments extends ParentTest {
 
     @Test
-    public void createNewSwiftPayment() throws InterruptedException {
-        loginPage.loginUser("brusov@ub.com", "qwerty");
+    public void createNewSwiftPayment()  {
+        super.setUp();
+        loginPage.loginUser(ConfigData.getUiMappingValue( "loginCorrect"), ConfigData.getUiMappingValue( "passwordCorrect"));
         checkAC("Avatar is not present",mainPage.isAvatarPresent(), true);
-        mainPage.changeClient();
-        mainPage.RNK98509901();
+        //mainPage.changeClient();
+        //mainPage.RNK98509901();
         mainPage.openPaymentsMenu();
         paymentsPage.newPayment();
         paymentsPage.newSwiftPayment();
@@ -30,10 +34,24 @@ public class NewSwiftPayments extends ParentTest {
         paymentsPage.clickOnButtonYes();
         swiftPayment.openSwiftDdWithAccs();
         swiftPayment.chooseAcc260093011661USD();
-        swiftPayment.chooseUAclientName();
-        swiftPayment.openDdWithCountry();
-        swiftPayment.chooseIreland();
-        swiftPayment.testLoc();
-        Thread.sleep(10000);
+        swiftPayment.clickIntermediary();
+        swiftPayment.clickCheckBoxIntermediary();
+        swiftPayment.enterTextclickIntermediary("Selenuum Bank Swift");
+        swiftPayment.enterTextintermediaryBankSwift("Selenium #SWIFT");
+        swiftPayment.enterTextIntermediaryBankLocation("Selenium Location Swift");
+        swiftPayment.clickBeneficiary();
+        swiftPayment.enterTextBeneficiaryAccountNumber("260454545454545454");
+        swiftPayment.enterTextBenificiaryIBANNumber("UA8855300465260056565656");
+        swiftPayment.enterTextBeneficiaryName("Benef Name Selenium ");
+        swiftPayment.enterTextBeneficiaryLocation("Location Selenium");
+        swiftPayment.enterTextBeneficiaryBankCorrAccount("SeleniumCorBank");
+        swiftPayment.enterTextBeneficiaryBankName("ASSET ALLOCATION ADVISORS SA");
+        swiftPayment.enterTextBeneficiaryBankSWIFT("AAADFRP1XXX");
+        swiftPayment.enterTextBenificiaryBankLocation("FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS");
+        swiftPayment.clickBenificiaryBankLocation();
+        swiftPayment.clickButtonNext4();
+        swiftPayment.clickOnsign();
+        swiftPayment.textSuccess();
+
     }
 }

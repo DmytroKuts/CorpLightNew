@@ -82,12 +82,13 @@ public class ActionsWithOurElements {
 
     public static void clickOnElement(WebElement element) {
         try {
-            webDriverWait10 = new WebDriverWait(webdriver, 10);
-            webDriverWait10.until(ExpectedConditions.elementToBeClickable(element));
+//            webDriverWait10 = new WebDriverWait(webdriver, 10);
+//            webDriverWait10.until(ExpectedConditions.elementToBeClickable(element));
             //element.click();
             $(element).shouldBe(Condition.visible).click();
             logger.info("Elemet was clicked " + element);
         } catch (Exception e) {
+
             logErrorAndStopTest(e);
         }
     }

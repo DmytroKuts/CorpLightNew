@@ -15,6 +15,7 @@ public class NewPaymentBetweenOwnAccounts extends ParentTest{
        // mainPage.RNK98509901();
         mainPage.openPaymentsMenu();
         paymentsPage.newPayment();
+        paymentsPage.newInnerPay();
         paymentsPage.enterTextIntoInputAmount("20");
         paymentsPage.enterTextIntoInputPurpose("New payment between accs by selenium");
         paymentsPage.clickOnButtonConfirm();

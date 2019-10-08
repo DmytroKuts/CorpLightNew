@@ -7,11 +7,9 @@ import libs.ConfigData;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeClass;
 import pages.*;
@@ -47,7 +45,6 @@ public class ParentTest {
         paymentsPage = new PaymentsPage(webDriver);
         swiftPayment = new SwiftPayment(webDriver);
         configData = new ConfigData();
-
     }
 
     private void setBrowser() {
@@ -70,10 +67,10 @@ public class ParentTest {
         }
     }
 
-   // @After
-   // public void tearDown(){
-    //    webDriver.quit();
-   // }
+    @After
+    public void tearDown(){
+        webDriver.quit();
+    }
 
     @Step
     protected void checkAC(String message, Boolean actual, Boolean expected) {

@@ -519,3 +519,788 @@ Session ID: a851cc907da78893b923eb2427655498
 2019-15-04 15:31:22   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (f553e1c82988bf0c43d9ee4f0fd16b28)] -> name: loginpass]
 2019-15-04 15:31:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (f553e1c82988bf0c43d9ee4f0fd16b28)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
 2019-15-04 15:31:23   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:37:56   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:37:59   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (16f5cae2e10e80af78f81eeb1a11418f)] -> name: login]
+2019-22-04 08:37:59   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (16f5cae2e10e80af78f81eeb1a11418f)] -> name: loginpass]
+2019-22-04 08:38:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (16f5cae2e10e80af78f81eeb1a11418f)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:38:16  ERROR [ActionsWithOurElements] : Can not work with element
+2019-22-04 08:38:16  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//span[@data-translate='aside.nav.ACCOUNTS']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.MainPage.openAccountsMenu(MainPage.java:39)
+	at accTests.ViewMainAcc.viewMainAccInUAHandUSD(ViewMainAcc.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//span[@data-translate='aside.nav.ACCOUNTS']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 16f5cae2e10e80af78f81eeb1a11418f
+*** Element info: {Using=xpath, value=.//span[@data-translate='aside.nav.ACCOUNTS']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 42 more
+
+2019-22-04 08:38:32   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:38:32   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (6f40d8f3880b1549a5dcfe4b70d4c21c)] -> name: login]
+2019-22-04 08:38:33   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (6f40d8f3880b1549a5dcfe4b70d4c21c)] -> name: loginpass]
+2019-22-04 08:38:33   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (6f40d8f3880b1549a5dcfe4b70d4c21c)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:38:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (6f40d8f3880b1549a5dcfe4b70d4c21c)] -> xpath: .//span[@data-translate='aside.nav.CORRESPONDENTS']]
+2019-22-04 08:38:39   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (6f40d8f3880b1549a5dcfe4b70d4c21c)] -> xpath: .//*[@class='fa fa-chevron-right']]
+2019-22-04 08:38:39   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:38:51   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:38:52   INFO [ActionsWithOurElements] : abr@ub.com was inputed in to input [[ChromeDriver: chrome on XP (73f23466ae3ad9d0ba5f6d31a1cd6402)] -> name: login]
+2019-22-04 08:38:52   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (73f23466ae3ad9d0ba5f6d31a1cd6402)] -> name: loginpass]
+2019-22-04 08:38:53   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (73f23466ae3ad9d0ba5f6d31a1cd6402)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:38:53   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:39:07   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:39:08   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (406dd2a8eb51c9b68fd69274691264a2)] -> name: login]
+2019-22-04 08:39:08   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (406dd2a8eb51c9b68fd69274691264a2)] -> name: loginpass]
+2019-22-04 08:39:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (406dd2a8eb51c9b68fd69274691264a2)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:39:10   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:39:34   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:39:34   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (4f94831c1387e997d15eb65c5adf853f)] -> name: login]
+2019-22-04 08:39:35   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (4f94831c1387e997d15eb65c5adf853f)] -> name: loginpass]
+2019-22-04 08:39:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4f94831c1387e997d15eb65c5adf853f)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:39:39   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:39:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4f94831c1387e997d15eb65c5adf853f)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 08:39:55  ERROR [ActionsWithOurElements] : Can not work with element
+2019-22-04 08:39:55  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//a[@href='/payments/new/within-mfo/']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.newPayment(PaymentsPage.java:53)
+	at paymentsTests.NewPaymentBetweenOwnAccounts.createNewPaymentsBetweenOwnAccounts(NewPaymentBetweenOwnAccounts.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//a[@href='/payments/new/within-mfo/']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4f94831c1387e997d15eb65c5adf853f
+*** Element info: {Using=xpath, value=.//a[@href='/payments/new/within-mfo/']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 42 more
+
+2019-22-04 08:40:13   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:40:13   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (e733a2de3e77324463ba25ca09308da6)] -> name: login]
+2019-22-04 08:40:14   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (e733a2de3e77324463ba25ca09308da6)] -> name: loginpass]
+2019-22-04 08:40:14   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e733a2de3e77324463ba25ca09308da6)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:40:18   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:40:19   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e733a2de3e77324463ba25ca09308da6)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 08:40:35  ERROR [ActionsWithOurElements] : Can not work with element
+2019-22-04 08:40:35  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//a[@href='/payments/new/within-mfo/']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.newPayment(PaymentsPage.java:53)
+	at paymentsTests.NewPaymentInUkraine.createNewPaymentsInUkraine(NewPaymentInUkraine.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//a[@href='/payments/new/within-mfo/']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: e733a2de3e77324463ba25ca09308da6
+*** Element info: {Using=xpath, value=.//a[@href='/payments/new/within-mfo/']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 42 more
+
+2019-22-04 08:41:00   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:41:02   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (373feb7dc171b296fceb8c3a7cf0eabf)] -> name: login]
+2019-22-04 08:41:02   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (373feb7dc171b296fceb8c3a7cf0eabf)] -> name: loginpass]
+2019-22-04 08:41:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (373feb7dc171b296fceb8c3a7cf0eabf)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:41:05   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:41:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (373feb7dc171b296fceb8c3a7cf0eabf)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 08:41:26  ERROR [ActionsWithOurElements] : Can not work with element
+2019-22-04 08:41:26  ERROR [ActionsWithOurElements] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//a[@href='/payments/new/within-mfo/']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at libs.ActionsWithOurElements.clickOnElement(ActionsWithOurElements.java:86)
+	at pages.PaymentsPage.newPayment(PaymentsPage.java:53)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//a[@href='/payments/new/within-mfo/']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 373feb7dc171b296fceb8c3a7cf0eabf
+*** Element info: {Using=xpath, value=.//a[@href='/payments/new/within-mfo/']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 42 more
+
+2019-22-04 08:51:20   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:51:26   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (231985d0d3bf1e38a9180768aa8b23fe)] -> name: login]
+2019-22-04 08:51:26   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (231985d0d3bf1e38a9180768aa8b23fe)] -> name: loginpass]
+2019-22-04 08:51:28   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (231985d0d3bf1e38a9180768aa8b23fe)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:51:30   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (231985d0d3bf1e38a9180768aa8b23fe)] -> xpath: .//span[@data-translate='aside.nav.ACCOUNTS']]
+2019-22-04 08:51:32   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:51:47   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:51:48   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (82a2509eea1921967c6837722b6409cf)] -> name: login]
+2019-22-04 08:51:48   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (82a2509eea1921967c6837722b6409cf)] -> name: loginpass]
+2019-22-04 08:51:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (82a2509eea1921967c6837722b6409cf)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:51:58   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (82a2509eea1921967c6837722b6409cf)] -> xpath: .//span[@data-translate='aside.nav.CORRESPONDENTS']]
+2019-22-04 08:51:59   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (82a2509eea1921967c6837722b6409cf)] -> xpath: .//*[@class='fa fa-chevron-right']]
+2019-22-04 08:51:59   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:52:08   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:52:09   INFO [ActionsWithOurElements] : abr@ub.com was inputed in to input [[ChromeDriver: chrome on XP (a1e3e2c24ef51042efe09fd6041c7f05)] -> name: login]
+2019-22-04 08:52:09   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (a1e3e2c24ef51042efe09fd6041c7f05)] -> name: loginpass]
+2019-22-04 08:52:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (a1e3e2c24ef51042efe09fd6041c7f05)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:52:10   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:52:20   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:52:20   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (4bc6e6e16e0dc54bb82082124b6ef342)] -> name: login]
+2019-22-04 08:52:20   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (4bc6e6e16e0dc54bb82082124b6ef342)] -> name: loginpass]
+2019-22-04 08:52:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (4bc6e6e16e0dc54bb82082124b6ef342)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:52:23   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:52:33   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:52:33   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (dad188109fc9a120043ccdf1b34ee760)] -> name: login]
+2019-22-04 08:52:34   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (dad188109fc9a120043ccdf1b34ee760)] -> name: loginpass]
+2019-22-04 08:52:35   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (dad188109fc9a120043ccdf1b34ee760)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:52:36   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:52:37   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (dad188109fc9a120043ccdf1b34ee760)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 08:53:03   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:53:03   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (c828d7300a2d6792531af3fb7784a257)] -> name: login]
+2019-22-04 08:53:04   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (c828d7300a2d6792531af3fb7784a257)] -> name: loginpass]
+2019-22-04 08:53:05   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (c828d7300a2d6792531af3fb7784a257)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:53:05   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:53:07   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (c828d7300a2d6792531af3fb7784a257)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 08:53:33   INFO [pages.LoginPage] : Login page was open
+2019-22-04 08:53:33   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (7f80c42a407af7c595d9a139fa75d3ed)] -> name: login]
+2019-22-04 08:53:34   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (7f80c42a407af7c595d9a139fa75d3ed)] -> name: loginpass]
+2019-22-04 08:53:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7f80c42a407af7c595d9a139fa75d3ed)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 08:53:35   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 08:53:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (7f80c42a407af7c595d9a139fa75d3ed)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:21:04   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:21:07   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (f819aaade3d49cda374de0c82485a252)] -> name: login]
+2019-22-04 09:21:08   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (f819aaade3d49cda374de0c82485a252)] -> name: loginpass]
+2019-22-04 09:21:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (f819aaade3d49cda374de0c82485a252)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:21:10   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (f819aaade3d49cda374de0c82485a252)] -> xpath: .//span[@data-translate='aside.nav.ACCOUNTS']]
+2019-22-04 09:21:11   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:21:22   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:21:22   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (913b09a8b3a02c856430f2e35c208c5d)] -> name: login]
+2019-22-04 09:21:23   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (913b09a8b3a02c856430f2e35c208c5d)] -> name: loginpass]
+2019-22-04 09:21:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (913b09a8b3a02c856430f2e35c208c5d)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:21:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (913b09a8b3a02c856430f2e35c208c5d)] -> xpath: .//span[@data-translate='aside.nav.CORRESPONDENTS']]
+2019-22-04 09:21:26   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (913b09a8b3a02c856430f2e35c208c5d)] -> xpath: .//*[@class='fa fa-chevron-right']]
+2019-22-04 09:21:26   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:21:33   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:21:34   INFO [ActionsWithOurElements] : abr@ub.com was inputed in to input [[ChromeDriver: chrome on XP (f24333fed5a047be3e192f6f72c202cc)] -> name: login]
+2019-22-04 09:21:34   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (f24333fed5a047be3e192f6f72c202cc)] -> name: loginpass]
+2019-22-04 09:21:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (f24333fed5a047be3e192f6f72c202cc)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:21:34   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:21:42   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:21:42   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (ae7f5f04a83cf3269a0247db9cf7cb83)] -> name: login]
+2019-22-04 09:21:43   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (ae7f5f04a83cf3269a0247db9cf7cb83)] -> name: loginpass]
+2019-22-04 09:21:43   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (ae7f5f04a83cf3269a0247db9cf7cb83)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:21:44   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:21:54   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:21:54   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> name: login]
+2019-22-04 09:21:55   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> name: loginpass]
+2019-22-04 09:21:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:21:58   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:21:58   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:22:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:22:04   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-22-04 09:22:05   INFO [ActionsWithOurElements] : 20 was inputed in to input [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> name: Amount]
+2019-22-04 09:22:05   INFO [ActionsWithOurElements] : New payment between accs by selenium was inputed in to input [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> name: purpose]
+2019-22-04 09:22:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-22-04 09:22:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-22-04 09:22:07   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (5b514d7add7525e9d8d8eb798a09a7a3)] -> xpath: .//button[@data-translate='components.pay.save']]
+2019-22-04 09:22:08   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:22:19   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:22:19   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> name: login]
+2019-22-04 09:22:20   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> name: loginpass]
+2019-22-04 09:22:20   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:22:21   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:22:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:22:23   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:22:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:22:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-22-04 09:22:30   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'РАХУНОК 26250500949926 ']'
+2019-22-04 09:22:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//*[@class='btn ng-scope']]
+2019-22-04 09:22:31   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//*[@class='ng-binding' and text() = '260013011065']]
+2019-22-04 09:22:31   INFO [ActionsWithOurElements] : 48.84 was inputed in to input [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> name: Amount]
+2019-22-04 09:22:32   INFO [ActionsWithOurElements] : New payment in Ukraine by selenium was inputed in to input [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> name: purpose]
+2019-22-04 09:22:32   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-22-04 09:22:32   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (89bf4508fb3ae0804ba4fbee72ec8f2d)] -> xpath: .//button[@data-translate='components.pay.save']]
+2019-22-04 09:22:33   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:22:43   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:22:43   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> name: login]
+2019-22-04 09:22:44   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> name: loginpass]
+2019-22-04 09:22:44   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:22:45   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:22:46   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:22:48   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:22:50   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-22-04 09:22:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-22-04 09:22:52   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-22-04 09:22:58   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-22-04 09:22:58   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> name: Amount]
+2019-22-04 09:22:58   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> name: Purpose]
+2019-22-04 09:22:59   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> name: Other]
+2019-22-04 09:23:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//button[@type='submit'])[1]]
+2019-22-04 09:23:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-22-04 09:23:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-22-04 09:23:06   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']'
+2019-22-04 09:23:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-22-04 09:23:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-22-04 09:23:07   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-22-04 09:23:07   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-22-04 09:23:07   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-22-04 09:23:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-22-04 09:23:08   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-22-04 09:23:09   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-22-04 09:23:09   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-22-04 09:23:09   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-22-04 09:23:10   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-22-04 09:23:10   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-22-04 09:23:11   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-22-04 09:23:11   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-22-04 09:23:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-22-04 09:23:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: (.//button[@type='submit'])[4]]
+2019-22-04 09:23:12   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (175a9ef0b7a54b9cd7b92aecb7fb7d55)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-22-04 09:24:20   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:24:21   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (fff5419f7feb72f65c677de47e786bd2)] -> name: login]
+2019-22-04 09:24:21   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (fff5419f7feb72f65c677de47e786bd2)] -> name: loginpass]
+2019-22-04 09:24:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (fff5419f7feb72f65c677de47e786bd2)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:24:24   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (fff5419f7feb72f65c677de47e786bd2)] -> xpath: .//span[@data-translate='aside.nav.ACCOUNTS']]
+2019-22-04 09:24:24   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:24:32   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:24:33   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (58006e0893f5c7923c1609deada4d341)] -> name: login]
+2019-22-04 09:24:33   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (58006e0893f5c7923c1609deada4d341)] -> name: loginpass]
+2019-22-04 09:24:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (58006e0893f5c7923c1609deada4d341)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:24:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (58006e0893f5c7923c1609deada4d341)] -> xpath: .//span[@data-translate='aside.nav.CORRESPONDENTS']]
+2019-22-04 09:24:37   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (58006e0893f5c7923c1609deada4d341)] -> xpath: .//*[@class='fa fa-chevron-right']]
+2019-22-04 09:24:37   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:24:46   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:24:46   INFO [ActionsWithOurElements] : abr@ub.com was inputed in to input [[ChromeDriver: chrome on XP (46c2922cd2e27bd032bb2b2ec19f54a9)] -> name: login]
+2019-22-04 09:24:47   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (46c2922cd2e27bd032bb2b2ec19f54a9)] -> name: loginpass]
+2019-22-04 09:24:47   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (46c2922cd2e27bd032bb2b2ec19f54a9)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:24:47   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:24:57   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:24:58   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (fd54201683c48d7d3c7e9c38bdebe815)] -> name: login]
+2019-22-04 09:24:58   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (fd54201683c48d7d3c7e9c38bdebe815)] -> name: loginpass]
+2019-22-04 09:24:59   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (fd54201683c48d7d3c7e9c38bdebe815)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:25:00   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:25:09   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:25:10   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> name: login]
+2019-22-04 09:25:10   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> name: loginpass]
+2019-22-04 09:25:11   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:25:12   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:25:13   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:25:15   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:25:17   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> xpath: .//a[@href='/payments/new/within-mfo/']]
+2019-22-04 09:25:18   INFO [ActionsWithOurElements] : 20 was inputed in to input [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> name: Amount]
+2019-22-04 09:25:19   INFO [ActionsWithOurElements] : New payment between accs by selenium was inputed in to input [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> name: purpose]
+2019-22-04 09:25:19   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e9db2561abf7b09b6541779a292e5779)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-22-04 09:25:54   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:25:54   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> name: login]
+2019-22-04 09:25:54   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> name: loginpass]
+2019-22-04 09:25:55   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:25:56   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:25:57   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:25:59   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:26:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:26:00   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//*[@class='ui-select-match-text pull-left']]
+2019-22-04 09:26:06   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//span[contains(@class, 'ng-binding ng-scope') and text() = 'РАХУНОК 26250500949926 ']'
+2019-22-04 09:26:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//*[@class='btn ng-scope']]
+2019-22-04 09:26:06   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//*[@class='ng-binding' and text() = '260013011065']]
+2019-22-04 09:26:07   INFO [ActionsWithOurElements] : 48.84 was inputed in to input [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> name: Amount]
+2019-22-04 09:26:08   INFO [ActionsWithOurElements] : New payment in Ukraine by selenium was inputed in to input [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> name: purpose]
+2019-22-04 09:26:08   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//button[@data-translate='components.pay.confirm']]
+2019-22-04 09:26:09   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (d3d916cf693d50e0811bf759d7fc5498)] -> xpath: .//button[@data-translate='components.pay.save']]
+2019-22-04 09:26:09   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:26:18   INFO [pages.LoginPage] : Login page was open
+2019-22-04 09:26:18   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> name: login]
+2019-22-04 09:26:19   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> name: loginpass]
+2019-22-04 09:26:19   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-22-04 09:26:20   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-22-04 09:26:21   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//*[@data-translate= 'aside.nav.DOCUMENTS']]
+2019-22-04 09:26:22   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//a[@href='/payments/new/within-country/']]
+2019-22-04 09:26:24   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//*[contains(@ui-sref, 'app.payments.create.swift')]]
+2019-22-04 09:26:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[1]]
+2019-22-04 09:26:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//*[contains(@class, 'ui-select-toggle')])[1]]
+2019-22-04 09:26:31   INFO [ActionsWithOurElements] : Elemet was clicked Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class= 'ng-binding'and text() = 'EUR']'
+2019-22-04 09:26:31   INFO [ActionsWithOurElements] : 100 was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> name: Amount]
+2019-22-04 09:26:32   INFO [ActionsWithOurElements] : 14/14/1988 new swift by Selenium was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> name: Purpose]
+2019-22-04 09:26:32   INFO [ActionsWithOurElements] : Test SWIFT created by Selenium was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> name: Other]
+2019-22-04 09:26:33   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//button[@type='submit'])[1]]
+2019-22-04 09:26:33   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//button[@data-translate='shared.Yes']]
+2019-22-04 09:26:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//*[@aria-label='Select box activate'])[2]]
+2019-22-04 09:26:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//b[contains(@class, 'ng-binding') and text() = '26006301300598']]
+2019-22-04 09:26:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[3]]
+2019-22-04 09:26:35   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //span[@data-translate = 'components.pay.swift.intermediaryBankPresent']]
+2019-22-04 09:26:35   INFO [ActionsWithOurElements] : Selenuum Bank Swift was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'IntermediaryBankName']]
+2019-22-04 09:26:35   INFO [ActionsWithOurElements] : Selenium #SWIFT was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'IntermediaryBankSwift']]
+2019-22-04 09:26:36   INFO [ActionsWithOurElements] : Selenium Location Swift was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'IntermediaryBankLocation']]
+2019-22-04 09:26:36   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//div[contains(@class, 'panel-title ng-binding')])[4]]
+2019-22-04 09:26:37   INFO [ActionsWithOurElements] : 260454545454545454 was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryAccountNumber']]
+2019-22-04 09:26:37   INFO [ActionsWithOurElements] : UA8855300465260056565656 was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BenificiaryIBANNumber']]
+2019-22-04 09:26:37   INFO [ActionsWithOurElements] : Benef Name Selenium  was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryName']]
+2019-22-04 09:26:38   INFO [ActionsWithOurElements] : Location Selenium was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryLocation']]
+2019-22-04 09:26:38   INFO [ActionsWithOurElements] : SeleniumCorBank was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryBankCorrAccount']]
+2019-22-04 09:26:39   INFO [ActionsWithOurElements] : ASSET ALLOCATION ADVISORS SA was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryBankName']]
+2019-22-04 09:26:39   INFO [ActionsWithOurElements] : AAADFRP1XXX was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BeneficiaryBankSWIFT']]
+2019-22-04 09:26:40   INFO [ActionsWithOurElements] : FRANCE, PARIS, 3, AVENUE HOCHE CHEZ NSM CHEZ NSM 75008 PARIS was inputed in to input [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: //input[@name= 'BenificiaryBankLocation']]
+2019-22-04 09:26:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//*[@class='ac-menu-item ng-scope']]
+2019-22-04 09:26:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: (.//button[@type='submit'])[4]]
+2019-22-04 09:26:40   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (28094003d65ecb4f50682b51688a2a9a)] -> xpath: .//*[contains(@ng-click, 'ONSIGN')]]
+2019-03-05 08:51:24   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:51:25   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (31e1d2a6d0b1632fe1954a4e004f5a23)] -> name: login]
+2019-03-05 08:51:25   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (31e1d2a6d0b1632fe1954a4e004f5a23)] -> name: loginpass]
+2019-03-05 08:51:25   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (31e1d2a6d0b1632fe1954a4e004f5a23)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:52:02   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:52:02   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (64b988cfefc13466169afc55b6343784)] -> name: login]
+2019-03-05 08:52:02   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (64b988cfefc13466169afc55b6343784)] -> name: loginpass]
+2019-03-05 08:52:03   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (64b988cfefc13466169afc55b6343784)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:52:33   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:52:33   INFO [ActionsWithOurElements] : abr@ub.com was inputed in to input [[ChromeDriver: chrome on XP (eb38158ff795ee9704aacad68417c617)] -> name: login]
+2019-03-05 08:52:33   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (eb38158ff795ee9704aacad68417c617)] -> name: loginpass]
+2019-03-05 08:52:34   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (eb38158ff795ee9704aacad68417c617)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:52:34   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-03-05 08:52:44   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:52:44   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (786b322cece366dd1287907341a95ffc)] -> name: login]
+2019-03-05 08:52:45   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (786b322cece366dd1287907341a95ffc)] -> name: loginpass]
+2019-03-05 08:52:45   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (786b322cece366dd1287907341a95ffc)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:52:50   INFO [ActionsWithOurElements] : Is Element Present ? - false
+2019-03-05 08:53:04   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:53:04   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (ef87b62142e4fc127d6e7751e9664a24)] -> name: login]
+2019-03-05 08:53:05   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (ef87b62142e4fc127d6e7751e9664a24)] -> name: loginpass]
+2019-03-05 08:53:05   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (ef87b62142e4fc127d6e7751e9664a24)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:53:10   INFO [ActionsWithOurElements] : Is Element Present ? - false
+2019-03-05 08:53:20   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:53:20   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (0be0cc983985629bbff98e596bab9c29)] -> name: login]
+2019-03-05 08:53:21   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (0be0cc983985629bbff98e596bab9c29)] -> name: loginpass]
+2019-03-05 08:53:21   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (0be0cc983985629bbff98e596bab9c29)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-03-05 08:53:26   INFO [ActionsWithOurElements] : Is Element Present ? - false
+2019-03-05 08:53:33   INFO [pages.LoginPage] : Login page was open
+2019-03-05 08:53:33  ERROR [ActionsWithOurElements] : Can not work with element
+2019-03-05 08:53:33  ERROR [ActionsWithOurElements] : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 0331f7b6a4bc48a725ddd8d801223b34
+*** Element info: {Using=name, value=login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at libs.ActionsWithOurElements.enterTextInToInput(ActionsWithOurElements.java:66)
+	at pages.LoginPage.enterTextIntoInputLogin(LoginPage.java:61)
+	at pages.LoginPage.loginUser(LoginPage.java:88)
+	at paymentsTests.NewSwiftPayments.createNewSwiftPayment(NewSwiftPayments.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+
+2019-14-05 11:19:51   INFO [pages.LoginPage] : Login page was open
+2019-14-05 11:19:53   INFO [ActionsWithOurElements] : test187@t.com was inputed in to input [[ChromeDriver: chrome on XP (e3fcc14c9e6f1963a155a67525ab8a12)] -> name: login]
+2019-14-05 11:19:53   INFO [ActionsWithOurElements] : qwerty was inputed in to input [[ChromeDriver: chrome on XP (e3fcc14c9e6f1963a155a67525ab8a12)] -> name: loginpass]
+2019-14-05 11:19:54   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e3fcc14c9e6f1963a155a67525ab8a12)] -> xpath: .//form[ contains(@class ,'ng-valid-email')]/button[contains(@class,'btn-login')]]
+2019-14-05 11:19:56   INFO [ActionsWithOurElements] : Elemet was clicked [[ChromeDriver: chrome on XP (e3fcc14c9e6f1963a155a67525ab8a12)] -> xpath: .//span[@data-translate='aside.nav.ACCOUNTS']]
+2019-14-05 11:19:57   INFO [ActionsWithOurElements] : Is Element Present ? - true
+2019-14-05 11:20:07   INFO [pages.LoginPage] : Login page was open
+2019-14-05 11:20:08  ERROR [ActionsWithOurElements] : Can not work with element
+2019-14-05 11:20:08  ERROR [ActionsWithOurElements] : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DMYTRO-KUTS', ip: '10.10.10.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\DMYTRO~1.KUT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 405b2879d13807c9406004c1b8422021
+*** Element info: {Using=name, value=login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at libs.ActionsWithOurElements.enterTextInToInput(ActionsWithOurElements.java:71)
+	at pages.LoginPage.enterTextIntoInputLogin(LoginPage.java:61)
+	at pages.LoginPage.loginUser(LoginPage.java:88)
+	at correspondentsTests.OpenCorrMenuAndShowInfo.openCorrMenuAndShowInfo(OpenCorrMenuAndShowInfo.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:39)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:79)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:70)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+

@@ -7,8 +7,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class PaymentsPage extends ParentPage{
 
-    @FindBy (xpath = ".//a[@href='/payments/new/within-mfo/']")
+
+
+    @FindBy (xpath = ".//a[@href='/payments/new/within-country/']")
     private WebElement CreateNewPayment;
+
+    @FindBy (xpath = ".//a[@href='/payments/new/within-mfo/']")
+    private WebElement CreateInnerPay;
 
     @FindBy (xpath = ".//a[@href='/payments/new/within-country/']")
     private WebElement PaymentInUkraine;
@@ -51,6 +56,8 @@ public class PaymentsPage extends ParentPage{
      * Method open page, where you can create payment between yours accounts
      */
     public void newPayment(){clickOnElement(CreateNewPayment);}
+
+    public void newInnerPay(){clickOnElement(CreateInnerPay);}
 
     public void newPaymentInUkraine(){clickOnElement(PaymentInUkraine);}
 
